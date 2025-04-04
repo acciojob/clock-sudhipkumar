@@ -5,3 +5,4 @@ function updateTime() {
             document.getElementById('timer').textContent = formattedTime;
         }
  setInterval(updateTime, 1000);
+updateTime(); // Call once to avoid delay
